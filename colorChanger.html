@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html>
+<Title> Color Matcher </Title>
+
+	<body>
+		<h1 style = "font-size:40px; color:purple;"> Enter the background color name in the Text Box for appropriate bg Color! </h1>
+	</body>
+	
+	 </br></br></br></br></br>
+	
+	<input style="margin:75px" type="text" id="textBox1" size="25"  />   <input type="submit" value="submit!" onclick="changeColor()"/>
+	
+
+<script type = "text/javascript">
+
+	function changeColor(){
+		
+		var colorType = document.getElementById("textBox1").value;
+		document.bgColor = colorType;
+	}
+
+	
+</script>
+
+
+
+</html>
